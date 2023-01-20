@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lyovmanukyan.github.io/static/css/main.a27d73d2.css",
+    "main.js": "/lyovmanukyan.github.io/static/js/main.e181f3d5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/lyovmanukyan.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/BigImg.png": "/lyovmanukyan.github.io/static/media/BigImg.5eddd5dae2955480d91e.png",
+    "static/media/Error404.png": "/lyovmanukyan.github.io/static/media/Error404.c3e61b37bda76ec51eae.png",
+    "index.html": "/lyovmanukyan.github.io/index.html",
+    "main.a27d73d2.css.map": "/lyovmanukyan.github.io/static/css/main.a27d73d2.css.map",
+    "main.e181f3d5.js.map": "/lyovmanukyan.github.io/static/js/main.e181f3d5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/lyovmanukyan.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a27d73d2.css",
+    "static/js/main.e181f3d5.js"
+  ]
+}
