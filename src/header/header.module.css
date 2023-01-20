@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu,.menu2{
+  display: flex;
+  gap:1.7vw;
+}
+.navbarWhite{
+  color: white;
+}
+.navbarDark{
+  color:black;
+}
+.navbarDark:hover{
+  color: #E0BEA2;
+}
+.iconsDarck{
+  color: #E0BEA2 ;
+}
+.iconsDarck:hover{
+  color: black;
+}
+.menu li,.menu2 li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.menu li a  {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8vw;
+  /* color: black; */
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 60px;
+}
+.sidebar-parent{
+  /* display: flex; */
+  flex-direction: column;
+  gap: 0.5vw 0;
+  display: none;
+}
+.sidebar1White,.sidebar2White,.sidebar3White{
+  background-color: white;
+}
+.sidebar1Dark,.sidebar2Dark,.sidebar3Dark{
+  background-color: #E0BEA2;
+}
+.sidebar1White,.sidebar1Dark{
+  width: 34px;
+  height: 4px;
+}
+.sidebar2White,.sidebar2Dark{
+  width:26px ;
+  height: 4px;
+}
+.sidebar3White,.sidebar3Dark{
+  width: 18px;
+  height: 4px;
+}
+.yankiWhite,.yankiDark{
+  text-transform: uppercase;
+  font-size: 4.6vw;
+  font-weight: 200;
+}
+.yankiWhite{
+  color: white;
+}
+.yankiDark{
+  color: #E0BEA2;
+}
+.none{
+  display: none;
+}

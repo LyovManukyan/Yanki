@@ -1,0 +1,134 @@
+.CatalogText{
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+  padding: 48px 0 30px 0;
+}
+.CatalogText_div1,.CatalogText_div2 {
+  display: flex;
+}
+.CatalogText_div1{
+  gap:0 15px ;
+}
+.CatalogText_div1 a{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.CatalogText_div2{
+  gap: 0 12%;
+}
+.CatalogText_div2 div{
+  display: flex;
+  gap:0 34px;
+}
+.CatalogText_div2 h3{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  padding-right: 100px;
+}
+.CatalogText_div2 select {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  background: none;
+  border: none;
+}
+.goods{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+.clots_parent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px 0;
+  position: relative;
+  width: 32%;
+  /* border: 1px solid red; */
+}
+.clots_parent img{
+ width: 100%;
+}
+.clots_main_parent{
+  display: flex;
+  flex-wrap: wrap;
+  width:76%;
+  /* border: 1px solid; */
+  align-items: flex-end;
+  margin-left: auto;
+  gap: 50px 15px;
+}
+.color_parent{
+  display: flex;
+  gap: 0 5px;
+}
+.color_parent div{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.color_white{
+  border: 1px solid
+}
+.color_blue{
+  background-color:#6F83A4 ;
+}
+.color_yellow{
+  background-color:#F1DDAA ;
+}
+.heart_parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  position: absolute;
+  background-color: #E0BEA2;
+  width: 40px;
+  height: 40px;
+  border-bottom-left-radius: 50%;
+  right: 0;
+}
+.categories_parent{
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+}
+.categories_parent a{
+  text-decoration: none;
+  
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+}
+.title{
+  
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+.price{
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.size{
+  
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(37, 37, 37, 0.5);
+}
+.heart_button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}

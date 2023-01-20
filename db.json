@@ -1,0 +1,87 @@
+{
+  "TrenchCoats": [
+    {
+      "id": 1,
+      "title": "TrenchCoats1",
+      "image": "https://i.postimg.cc/8chvhWMN/Trench-Coats.png"
+    },
+    {
+      "id": 2,
+      "title": "TrenchCoats2",
+      "image": "https://i.postimg.cc/wT2yg9kf/Trench-Coats1.png"
+    },{
+      "id": 3,
+      "title": "TrenchCoats3",
+      "image": "https://i.postimg.cc/fT8L1Bw1/Trench-Coats2.png"
+    }
+    ,{
+      "id": 4,
+      "title": "TrenchCoats4",
+      "image": "https://i.postimg.cc/fLsDV9zx/Trench-Coats3.png"
+    }
+
+  ],
+  "FurCoats": [
+    {
+      "id": 1,
+      "title": "FurCoats1",
+      "image": "https://i.postimg.cc/HkY4HZ1m/FurCoats.png"
+    },
+    {
+      "id": 2,
+      "title": "FurCoats2",
+      "image": "https://i.postimg.cc/MZYnxW6c/Fur-Coats1.png"
+    },{
+      "id": 3,
+      "title": "FurCoats3",
+      "image": "https://i.postimg.cc/BbZQtKSj/Fur-Coats2.png"
+    }
+    ,{
+      "id": 4,
+      "title": "FurCoats4",
+      "image": "https://i.postimg.cc/s2RzvhK3/Fur-Coats3.png"
+    }
+  ],
+  "Coat": [
+    {
+      "id": 1,
+      "title": "Coat1",
+      "image": "https://i.postimg.cc/gJMz10p8/Coat.png"
+    },
+    {
+      "id": 2,
+      "title": "Coat2",
+      "image": "https://i.postimg.cc/R04vFtVw/Coat1.png"
+    },{
+      "id": 3,
+      "title": "Coat3",
+      "image": "https://i.postimg.cc/KzsbJs75/Coat2.png"
+    }
+    ,{
+      "id": 4,
+      "title": "Coat4",
+      "image": "https://i.postimg.cc/G9wZf04v/Coat3.png"
+    }
+  ],
+  "DownJacketsAndVests": [
+    {
+      "id": 1,
+      "title": "DownJacketsAndVests1",
+      "image": "https://i.postimg.cc/MHWsfWfP/Down-Jackets-And-Vests.png"
+    },
+    {
+      "id": 2,
+      "title": "DownJacketsAndVests2",
+      "image": "https://i.postimg.cc/NfCNLvsD/Down-Jackets-And-Vests1.png"
+    },{
+      "id": 3,
+      "title": "DownJacketsAndVests3",
+      "image": "https://i.postimg.cc/KYBQ9Knp/Down-Jackets-And-Vests2.png"
+    }
+    ,{
+      "id": 4,
+      "title": "DownJacketsAndVests4",
+      "image": "https://i.postimg.cc/NGpDPvHt/Down-Jackets-And-Vests3.png"
+    }
+  ]
+}

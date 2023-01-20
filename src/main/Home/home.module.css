@@ -1,0 +1,195 @@
+.sect1-img{
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  right: 0;
+}
+.sect1-img div{
+  width: 33.3%;
+  /* border: 1px solid; */
+}
+.sect1-img div img{
+  width: 100%;
+}
+.sect1-Bigimg{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin:auto;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: auto;
+}
+.sect1-Bigimg div{
+  width: 100%;
+}
+.sect1-Bigimg div img{
+  width: 100%;
+}
+.hometext-parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  position: relative;
+  top: -10%;
+}
+.hometext-h2{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.2vw;
+  color: white;
+  line-height: 3;
+}
+.hometext-h2::after{
+  content: '';
+  display: block;
+  margin: auto;
+  border: 1px solid;
+  width: 50%;
+  color: white;
+}
+.hometext-p{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1vw;
+  color: white;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+.categories{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20% 0 10% 0;
+}
+.categories h2{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+.slide_parent{
+  display: flex;
+  gap:0 1.5vw ;
+}
+.slide_parent div{
+  display: flex;
+  /* border: solid; */
+  width: 30%;
+  justify-content: center;
+  position: relative;
+}
+.slide_parent img{
+  width: 100%;
+}
+.slide_parent div p{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(224, 190, 162, 0.75);
+  backdrop-filter: blur(3px);
+  padding: 8px 0 9px 0;
+  text-align: center;
+}
+.knowMore{
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+.knowMoreChild{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0;
+  width: fit-content;
+}
+.KnowMoreText,.KnowMoreButton {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.KnowMoreButton{
+  gap: 20px 0;
+}
+.KnowMoreText{
+  gap:50px 0;
+}
+.KnowMoreText h2{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+.KnowMoreText input {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 16px 0;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: rgba(37, 37, 37, 0.5);
+}
+.KnowMoreButton button {
+  width: 100%;
+  background: #E0BEA2;
+  border: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 17px 0;
+  color: white;
+}
+.KnowMoreButton p{
+  text-align: center;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width:1119px) and (min-width:1000px)  {
+.categories{
+  padding: 10% 0;
+}
+}
+@media screen and (max-width:999px) and (min-width:899px)  {
+  .categories{
+    padding: 5% 0;
+}
+}
+@media screen and (max-width:898px) and (min-width:768px)  {
+    .categories{
+      padding: 1% 0;
+}
+}
+@media screen and (max-width:767px) and (min-width:600px)  {
+  .categories{
+    padding: 100% 0 0 0;
+}
+}
+@media screen and (max-width:599px) and (min-width:500px)  {
+  .categories{
+    padding: 80% 0 0 0;
+}
+}
+@media screen and (max-width:499px) and (min-width:400px)  {
+  .categories{
+    padding: 60% 0 0 0;
+}
+}
+@media screen and (max-width:399px) and (min-width:300px)  {
+  .categories{
+    padding: 40% 0 0 0;
+}
+}
